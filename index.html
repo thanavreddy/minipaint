@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Paint</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="drawCanvas"></canvas>
+
+  <div class="toolbar">
+    <input type="color" id="colorPicker" title="Pick Color" />
+    <input type="range" id="brushSize" min="1" max="20" value="3" title="Brush Size" />
+    <button id="undoBtn" title="Undo">⟲</button>
+    <button id="redoBtn" title="Redo">⟳</button>
+    <button id="clearBtn" title="Clear Canvas">✕</button>
+    <button id="saveBtn" title="Save Drawing">💾</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

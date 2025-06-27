@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+}
+
+#drawCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.toolbar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 8px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.toolbar input[type="color"],
+.toolbar input[type="range"] {
+  cursor: pointer;
+}
+
+.toolbar button {
+  background: #f4f4f4;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.toolbar button:hover {
+  background: #e0e0e0;
+}
+
+.toolbar button:active {
+  transform: scale(0.96);
+}
+
+@media (max-width: 500px) {
+  .toolbar {
+    flex-wrap: wrap;
+    padding: 6px 10px;
+    gap: 8px;
+  }
+
+  .toolbar button {
+    font-size: 14px;
+    padding: 5px 8px;
+  }
+}
