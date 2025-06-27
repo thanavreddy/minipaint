@@ -18,7 +18,7 @@ Mini Paint is a lightweight, beginner-friendly drawing application built with HT
 
 ##  Preview
 
-![Mini Paint Screenshot](https://via.placeholder.com/800x400?text=Mini+Paint+App+Screenshot)
+![image](https://github.com/user-attachments/assets/dd7bb6c8-91b9-47c5-b8b3-0c5fffa880dc)
 
 ---
 
@@ -55,7 +55,6 @@ mini-paint/
 
 
 <div align="center">
-  <strong>Happy Drawing! 🎨</strong>
+  <strong>Happy Drawing!</strong>
   <br>
-  <sub>Made with ❤️ by [Your Name]</sub>
 </div>
